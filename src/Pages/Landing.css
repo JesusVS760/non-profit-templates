@@ -16,14 +16,68 @@
 }
 .landing-header-info {
   color: black;
+  font-weight: 800;
   display: flex;
   flex-direction: column;
   max-width: 800px;
-  background: white;
+  background-color: seashell;
   padding: 25px;
   border-radius: 10px;
 }
 .landing-header-info p {
   font-size: 1.2rem;
   padding-top: 25px;
+}
+.landing-buttons button {
+  margin-top: 35px;
+  margin-right: 25px;
+  font: inherit;
+  font-size: 1rem;
+  padding: 10px 25px;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  background: linear-gradient(to left, #ff0000 0%, #000000 100%);
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.landing-buttons button:hover {
+  background: transparent;
+  color: black;
+}
+.landing-featured-story-img img {
+  max-width: 550px;
+  max-height: 550px;
+  margin: 65px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.landing-featured-story-img span {
+}
+.landing-featured-story {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing-featured-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+}
+.landing-featured-content h1 {
+  font-size: 3rem;
+  max-width: 500px;
+  padding-bottom: 25px;
+}
+.landing-featured-content .story-content {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 25px 0px;
+}
+
+.landing-featured-content .story-line {
+  letter-spacing: 5px;
+}
+.more-button {
+  padding: 15px 0px;
+  cursor: pointer;
 }

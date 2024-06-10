@@ -26,3 +26,11 @@ a {
   color: black;
   font-weight: 700;
 }
+h2 {
+  background: #ff0000;
+  background: linear-gradient(to left, #ff0000 0%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

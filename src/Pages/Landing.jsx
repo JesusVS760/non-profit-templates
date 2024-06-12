@@ -50,39 +50,43 @@ const Landing = () => {
           <button className="more-button">More About My Story!</button>
         </div>
       </div>
-      <div className="landing-statistics">
-        <div className="stats-card">
-          <div className="stat">
-            <li>Unfunded Schools</li>
+      <div className="landing-stat-section">
+        <h1>What is Our Why?</h1>
+
+        <div className="landing-statistics">
+          <div className="stats-card">
+            <div className="stat">
+              <li>Unfunded Schools</li>
+            </div>
+            <img src={library} alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et
+              justo vel odio rhoncus porta. Duis consequat libero at velit
+              faucibus, sed semper ligula suscipit.
+            </p>
           </div>
-          <img src={library} alt="" />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et
-            justo vel odio rhoncus porta. Duis consequat libero at velit
-            faucibus, sed semper ligula suscipit.
-          </p>
-        </div>
-        <div className="stats-card">
-          <div className="stat">
-            <li>Finacial Hardship</li>
+          <div className="stats-card">
+            <div className="stat">
+              <li>Finacial Hardship</li>
+            </div>
+            <img src={hardship} alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et
+              justo vel odio rhoncus porta. Duis consequat libero at velit
+              faucibus, sed semper ligula suscipit.
+            </p>
           </div>
-          <img src={hardship} alt="" />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et
-            justo vel odio rhoncus porta. Duis consequat libero at velit
-            faucibus, sed semper ligula suscipit.
-          </p>
-        </div>
-        <div className="stats-card">
-          <div className="stat">
-            <li>Teacher Shortage</li>
+          <div className="stats-card">
+            <div className="stat">
+              <li>Teacher Shortage</li>
+            </div>
+            <img src={teacher} alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et
+              justo vel odio rhoncus porta. Duis consequat libero at velit
+              faucibus, sed semper ligula suscipit.
+            </p>
           </div>
-          <img src={teacher} alt="" />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et
-            justo vel odio rhoncus porta. Duis consequat libero at velit
-            faucibus, sed semper ligula suscipit.
-          </p>
         </div>
       </div>
     </div>

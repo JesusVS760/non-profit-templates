@@ -3,6 +3,9 @@ import Navbar from "../components/Navbar";
 import "./Landing.css";
 import student from "../assets/images/student.jpg";
 import Header from "../components/Header";
+import teacher from "../assets/images/teacher.jpg";
+import hardship from "../assets/images/hardship.jpg";
+import library from "../assets/images/library.jpg";
 // import img from "../assets/images/landing2.jpg";
 
 const Landing = () => {
@@ -45,6 +48,41 @@ const Landing = () => {
             lectus non dolor.
           </p>
           <button className="more-button">More About My Story!</button>
+        </div>
+      </div>
+      <div className="landing-statistics">
+        <div className="stats-card">
+          <div className="stat">
+            <li>Unfunded Schools</li>
+          </div>
+          <img src={library} alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et
+            justo vel odio rhoncus porta. Duis consequat libero at velit
+            faucibus, sed semper ligula suscipit.
+          </p>
+        </div>
+        <div className="stats-card">
+          <div className="stat">
+            <li>Finacial Hardship</li>
+          </div>
+          <img src={hardship} alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et
+            justo vel odio rhoncus porta. Duis consequat libero at velit
+            faucibus, sed semper ligula suscipit.
+          </p>
+        </div>
+        <div className="stats-card">
+          <div className="stat">
+            <li>Teacher Shortage</li>
+          </div>
+          <img src={teacher} alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et
+            justo vel odio rhoncus porta. Duis consequat libero at velit
+            faucibus, sed semper ligula suscipit.
+          </p>
         </div>
       </div>
     </div>

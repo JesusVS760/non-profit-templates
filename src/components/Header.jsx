@@ -3,10 +3,12 @@ import "./Header.css";
 import phone from "../assets/images/phone.png";
 import linkedin from "../assets/images/linkedin.png";
 import twitter from "../assets/images/twitter.png";
+import Search from "./Search";
 
 const Header = () => {
   return (
     <div className="header-container">
+      <Search />
       <div className="contact-info">
         <p className="contact-opt">
           <img src={phone} alt="" />

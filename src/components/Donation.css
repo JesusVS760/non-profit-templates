@@ -6,7 +6,19 @@
   flex-direction: column;
 }
 .donation-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   margin-bottom: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: var(--theme);
+}
+.donation-header h1 {
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+  color: white;
 }
 .donation-content {
   display: flex;
@@ -21,9 +33,14 @@
   width: 450px;
   outline: none;
   border-radius: 4px;
-  border: 1px solid black;
+  border: 1px solid white;
   font: inherit;
   font-size: 1rem;
+  background: transparent;
+  color: white;
+}
+.input input::placeholder {
+  color: white;
 }
 .input p,
 h3 {
@@ -31,18 +48,25 @@ h3 {
   font-weight: 500;
 }
 h3 {
-  margin-top: -50px;
+  margin-top: -90px;
   padding: 10px;
   font-weight: 700;
+  font-size: 1.5rem;
 }
 .donation-info textarea {
   width: 450px;
   padding: 45px 0px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
 }
 .donation-payment {
   display: flex;
   flex-direction: column;
   margin-bottom: 200px;
+}
+.donation-payment input {
+  margin-top: 10px;
 }
 .donation-payment h4 {
   font-size: 1.2rem;
@@ -74,13 +98,31 @@ hr {
   cursor: pointer;
   width: 100px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.5s ease;
+}
+.donation-amt-opt button:hover {
+  background: transparent;
+  border: 1px solid #59ce8f;
+  color: #59ce8f;
+  font-weight: 700;
 }
 .donation-amt-opt {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
+  margin: 15px 0px;
 }
 .donation-content p {
   color: white;
   font-weight: 500;
+}
+.donation-custom-amt input {
+  width: 350px;
+  padding: 10px 0px;
+}
+.donation-custom-amt p {
+  color: gray;
+}
+.input {
+  margin-bottom: 10px;
 }

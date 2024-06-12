@@ -1,10 +1,12 @@
 import React from "react";
 import "./Donation.css";
+import money from "../assets/images/money.png";
 
 const Donation = () => {
   return (
     <div className="donation-container">
       <div className="donation-header">
+        <img src={money} alt="" />
         <h1>Every Donation Helps!</h1>
       </div>
       <div className="donation-card">

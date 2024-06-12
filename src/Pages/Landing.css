@@ -13,6 +13,7 @@
   height: 80vh;
   background-position: center;
   background-image: url("../assets/images/landing2.jpg");
+  background-repeat: no-repeat;
 }
 .landing-header-info {
   color: black;

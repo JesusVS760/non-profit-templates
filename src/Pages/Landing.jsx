@@ -2,11 +2,13 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import "./Landing.css";
 import student from "../assets/images/student.jpg";
+import Header from "../components/Header";
 // import img from "../assets/images/landing2.jpg";
 
 const Landing = () => {
   return (
     <div className="landing-container">
+      <Header />
       <Navbar />
       <div className="landing-content">
         <div className="landing-header-info">
@@ -26,8 +28,9 @@ const Landing = () => {
         <div className="landing-featured-story-img">
           <img src={student} alt="student"></img>
           <div className="span-info">
-            <span>"I was able to reach my goals and dreams"</span>
-            <span>-John Smith, San Diego</span>
+            <span>
+              "I was able to reach my goals and dreams" -John Smith, San Diego
+            </span>
           </div>
         </div>
         <div className="landing-featured-content">

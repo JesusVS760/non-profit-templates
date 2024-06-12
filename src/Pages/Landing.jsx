@@ -7,6 +7,7 @@ import teacher from "../assets/images/teacher.jpg";
 import hardship from "../assets/images/hardship.jpg";
 import library from "../assets/images/library.jpg";
 import plus from "../assets/images/plus.png";
+import Donation from "../components/Donation";
 // import img from "../assets/images/landing2.jpg";
 
 const Landing = () => {
@@ -129,6 +130,9 @@ const Landing = () => {
             <img src={plus} alt="plus" />
           </div>
         </div>
+      </div>
+      <div>
+        <Donation />
       </div>
     </div>
   );

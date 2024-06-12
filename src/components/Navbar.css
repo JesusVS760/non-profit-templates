@@ -41,7 +41,7 @@ a:hover {
   color: #ff0000;
   font-weight: 700;
 }
-h2 {
+.landing-title h2 {
   background: #ff0000;
   background: linear-gradient(to left, #ff0000 0%, #000000 100%);
   -webkit-background-clip: text;

@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import teacher from "../assets/images/teacher.jpg";
 import hardship from "../assets/images/hardship.jpg";
 import library from "../assets/images/library.jpg";
+import plus from "../assets/images/plus.png";
 // import img from "../assets/images/landing2.jpg";
 
 const Landing = () => {
@@ -86,6 +87,46 @@ const Landing = () => {
               justo vel odio rhoncus porta. Duis consequat libero at velit
               faucibus, sed semper ligula suscipit.
             </p>
+          </div>
+        </div>
+      </div>
+      <div className=""></div>
+      <div className="Faq-section">
+        <div className="faq-header">
+          <h2>Unlocking Answers:</h2>
+          <h1>Your FAQs Demystified</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et
+            justo vel odio rhoncus porta. Duis consequat libero at velit
+            faucibus, sed semper ligula suscipit.Sed et justo vel odio rhoncus
+            porta.
+          </p>
+        </div>
+        <div className="faq-content">
+          <div className="card">
+            <p>1. What is Pathways to Youth Empowerment?</p>
+            <img src={plus} alt="plus" />
+          </div>
+          <div className="card">
+            <p>2. How can I get involved with Pathways to Youth Empowerment?</p>
+            <img src={plus} alt="plus" />
+          </div>
+          <div className="card">
+            <p>3. Where does my donation go?</p>
+            <img src={plus} alt="plus" />
+          </div>
+          <div className="card">
+            <p>
+              4. Can I designate my donation to a specific program or project?
+            </p>
+            <img src={plus} alt="plus" />
+          </div>
+          <div className="card">
+            <p>
+              5. Does Pathways to Youth Empowerment offer internships or job
+              opportunities?
+            </p>
+            <img src={plus} alt="plus" />
           </div>
         </div>
       </div>

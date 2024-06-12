@@ -10,7 +10,7 @@
   font-size: 1.5rem;
   width: cover;
   width: cover;
-  height: 85vh;
+  height: 80vh;
   background-position: center;
   background-image: url("../assets/images/landing2.jpg");
 }
@@ -161,4 +161,51 @@
 }
 .landing-stat-section {
   margin-top: 50px;
+}
+.Faq-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.faq-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 700px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.faq-header h1 {
+  font-size: 2.4rem;
+}
+.faq-content {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 10px 5px;
+  border-radius: 10px;
+  margin: 8px 0px;
+  box-shadow: rgba(0, 0, 0, 0.46) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.24) 0px 0px 0px 1px;
+  cursor: pointer;
+  transition: 0.8s ease;
+}
+.card:hover {
+  color: white;
+  border: 1px solid white;
+  background: linear-gradient(to left, #ff0000 0%, #000000 100%);
+}
+.card img {
+  width: 40px;
+  cursor: pointer;
+}
+.card p {
+  padding: 10px;
+  font-size: 1.1rem;
 }

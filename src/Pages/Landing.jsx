@@ -201,6 +201,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
+      <div className="landing-about-section"></div>
       <div>
         <Donation />
       </div>

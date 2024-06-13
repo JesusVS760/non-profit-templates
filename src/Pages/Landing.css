@@ -146,7 +146,6 @@
   padding: 25px;
   margin-right: 50px;
   border: 3px solid transparent; /* Set a transparent border */
-
   box-shadow: rgba(0, 0, 0, 0.46) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.24) 0px 0px 0px 1px;
   margin-bottom: 20px;
@@ -226,7 +225,14 @@
   align-items: center;
   flex-direction: column;
 }
+.stat-heading h1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2.2rem;
+}
 .stat-heading p {
+  margin-top: 15px;
   max-width: 700px;
 }
 .stat-service-container {
@@ -253,8 +259,9 @@
   align-items: center;
   justify-content: center;
   max-width: 500px;
-  margin-right: 25px;
+  margin-right: 50px;
   background: white;
+
   border: 1px solid black;
 }
 .card-img {
@@ -273,6 +280,7 @@
   align-items: start;
   justify-content: center;
   flex-direction: column;
+  margin-left: 10px;
 }
 .stat-service-container {
   margin: 50px 0px;

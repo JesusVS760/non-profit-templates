@@ -38,8 +38,9 @@ const Donation = () => {
               <button>$300</button>
             </div>
             <div className="donation-custom-amt">
-              <input type="text" />
+              <input type="text" placeholder="$123" />
               <p>Donation Amount</p>
+              <button>Donate</button>
             </div>
           </div>
         </div>

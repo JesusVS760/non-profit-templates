@@ -5,6 +5,10 @@ import student from "../assets/images/student.jpg";
 import Header from "../components/Header";
 import teacher from "../assets/images/teacher.jpg";
 import hardship from "../assets/images/hardship.jpg";
+import hat from "../assets/images/hat.png";
+import skill from "../assets/images/skill.png";
+import weight from "../assets/images/weight.png";
+import heart from "../assets/images/heart.png";
 import library from "../assets/images/library.jpg";
 import plus from "../assets/images/plus.png";
 import Donation from "../components/Donation";
@@ -53,9 +57,75 @@ const Landing = () => {
         </div>
       </div>
       <div className="landing-stat-section">
-        <h1>What is Our Why?</h1>
-
-        <div className="landing-statistics">
+        <div className="stat-heading">
+          <h1>Empowering Lives</h1>
+          <h1>Through a Range of Ways.</h1>
+          <p>
+            {" "}
+            Nunc aliquam est vel efficitur porta. Aliquam sit amet convallis
+            ipsum. Integer convallis, risus vel tincidunt finibus, dui lectus
+            dapibus mauris, sed bibendum enim lectus non dolor.
+          </p>
+        </div>
+        <div className="stat-service-container">
+          <div className="stat-service-top">
+            <div className="stat-service-card">
+              <div className="card-img">
+                <img src={hat} alt="" />
+              </div>
+              <div className="stat-service-info">
+                <h4>Educational Programs</h4>
+                <p>
+                  {" "}
+                  Nunc aliquam est vel efficitur porta. Aliquam sit amet
+                  convallis ipsum.
+                </p>
+              </div>
+            </div>
+            <div className="stat-service-card">
+              <div className="card-img">
+                <img src={skill} alt="" />
+              </div>
+              <div className="stat-service-info">
+                <h4>Skill Development</h4>
+                <p>
+                  {" "}
+                  Nunc aliquam est vel efficitur porta. Aliquam sit amet
+                  convallis ipsum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="stat-service-btm">
+            <div className="stat-service-card">
+              <div className="card-img">
+                <img src={weight} alt="" />
+              </div>
+              <div className="stat-service-info">
+                <h4>Extracurricular Activities</h4>
+                <p>
+                  {" "}
+                  Nunc aliquam est vel efficitur porta. Aliquam sit amet
+                  convallis ipsum.
+                </p>
+              </div>
+            </div>
+            <div className="stat-service-card">
+              <div className="card-img">
+                <img src={heart} alt="" />
+              </div>
+              <div className="stat-service-info">
+                <h4>Health and Wellbeing</h4>
+                <p>
+                  {" "}
+                  Nunc aliquam est vel efficitur porta. Aliquam sit amet
+                  convallis ipsum.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <div className="landing-statistics">
           <div className="stats-card">
             <div className="stat">
               <li>Unfunded Schools</li>
@@ -89,7 +159,7 @@ const Landing = () => {
               faucibus, sed semper ligula suscipit.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className=""></div>
       <div className="Faq-section">

@@ -177,6 +177,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding-bottom: 75px;
 }
 .faq-header {
   display: flex;
@@ -219,4 +220,67 @@
 .card p {
   padding: 10px;
   font-size: 1.1rem;
+}
+.stat-heading {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.stat-heading p {
+  max-width: 700px;
+}
+.stat-service-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 20px;
+}
+.stat-service-top {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.stat-service-btm {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.stat-service-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  margin-right: 25px;
+  background: white;
+  border: 1px solid black;
+}
+.card-img {
+  background: var(--theme);
+  padding: 25px;
+}
+.stat-service-info h4 {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+.stat-service-info p {
+  max-width: 70%;
+}
+.stat-service-info {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.stat-service-container {
+  margin: 50px 0px;
+}
+.stat-service-top {
+  margin: 0px;
+}
+.landing-stat-section {
+  margin: 100px 0px;
+  margin-bottom: 200px;
 }

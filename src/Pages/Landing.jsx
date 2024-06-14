@@ -57,12 +57,12 @@ const Landing = () => {
           <button className="more-button">More About My Story!</button>
         </div>
       </div>
-
+      <hr className="divider" />
       <div className="landing-stat-section">
         <div className="stat-heading">
           <h1>Empowering Lives</h1>
           <h1>Through a Range of Ways.</h1>
-          <hr />
+
           <p>
             {" "}
             Nunc aliquam est vel efficitur porta. Aliquam sit amet convallis
@@ -164,6 +164,7 @@ const Landing = () => {
           </div>
         </div> */}
       </div>
+      <hr className="divider" />
       <div className=""></div>
       <div className="Faq-section">
         <div className="faq-header">
@@ -205,6 +206,8 @@ const Landing = () => {
         </div>
       </div>
       <div className="landing-about-section"></div>
+      <hr className="divider" />
+
       <div>
         <Donation />
       </div>

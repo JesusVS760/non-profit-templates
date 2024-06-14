@@ -294,7 +294,13 @@
 }
 .landing-stat-section {
   margin: 100px 0px;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
 }
-.hr {
+.divider {
+  border: none;
+  border-top: 3px solid #9d50bb;
+  height: 2px;
+  width: 100%;
+  max-width: 300px; /* Adjust the width as needed */
+  margin: 0 auto 20px;
 }

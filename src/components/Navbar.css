@@ -41,16 +41,18 @@ a:hover {
   color: #9d50bb;
   font-weight: 700;
 }
-.landing-title {
+.landing-title img {
+  width: 200px;
 }
+
 .landing-title h2 {
   background: var(--theme);
   background: var(--theme);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 800;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 10px;
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
   font-weight: 1000;
   font-size: 2rem;
   border-radius: 10px;

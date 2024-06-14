@@ -1,10 +1,11 @@
 import React from "react";
 import "./Navbar.css";
-
+import logo from "../assets/images/logo.png";
 const Navbar = () => {
   return (
     <div className="navbar-container">
       <div className="landing-title">
+        {/* <img src={logo} alt="" /> */}
         <h2>Pathways for Youth Empowerment</h2>
       </div>
       <nav>

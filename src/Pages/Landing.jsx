@@ -12,6 +12,12 @@ import heart from "../assets/images/heart.png";
 import founder from "../assets/images/founder.jpg";
 import plus from "../assets/images/plus.png";
 import diamond from "../assets/images/diamond2.png";
+import teen from "../assets/images/teen.jpg";
+import teen2 from "../assets/images/teen2.jpg";
+import teen3 from "../assets/images/teen3.jpg";
+import group from "../assets/images/group.jpg";
+import group2 from "../assets/images/group2.jpg";
+import family from "../assets/images/family.jpg";
 import Donation from "../components/Donation";
 import Footer from "../components/Footer";
 
@@ -246,10 +252,30 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      <div>
-        <hr className="divider" />
-        <Donation />
+      <hr className="divider" />
+      <div className="landing-gallary-sec">
+        <div className="gallary-img">
+          <img src={group} alt="" />
+        </div>
+        <div className="gallary-img">
+          <img src={teen2} alt="" />
+        </div>
+        <div className="gallary-img">
+          <img src={teen3} alt="" />
+        </div>
+        <div className="gallary-img">
+          <img src={family} alt="" />
+        </div>
+        <div className="gallary-img">
+          <img src={teen} alt="" />
+        </div>
+        <div className="gallary-img">
+          <img src={group2} alt="" />
+        </div>
       </div>
+      {/* <div>
+        <Donation />
+      </div> */}
       <div className="">
         <Footer />
       </div>

@@ -345,3 +345,23 @@ h1 .diamond-background img {
 .landing-featured-content h2 {
   font-size: 1.7rem;
 }
+.gallary-img {
+  overflow: hidden; /* Ensure images do not overflow their container */
+  border-radius: 10px; /* Optional: Add border radius to the images */
+}
+.gallary-img img {
+  width: 300px;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.landing-gallary-sec {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr; /* First column is twice as wide */
+  grid-template-rows: auto auto; /* Adjust rows based on content */
+  gap: 15px;
+  padding: 20px;
+}

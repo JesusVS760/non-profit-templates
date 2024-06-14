@@ -12,6 +12,7 @@ import heart from "../assets/images/heart.png";
 import library from "../assets/images/library.jpg";
 import plus from "../assets/images/plus.png";
 import Donation from "../components/Donation";
+import Footer from "../components/Footer";
 // import img from "../assets/images/landing2.jpg";
 
 const Landing = () => {
@@ -56,10 +57,12 @@ const Landing = () => {
           <button className="more-button">More About My Story!</button>
         </div>
       </div>
+
       <div className="landing-stat-section">
         <div className="stat-heading">
           <h1>Empowering Lives</h1>
           <h1>Through a Range of Ways.</h1>
+          <hr />
           <p>
             {" "}
             Nunc aliquam est vel efficitur porta. Aliquam sit amet convallis
@@ -204,6 +207,9 @@ const Landing = () => {
       <div className="landing-about-section"></div>
       <div>
         <Donation />
+      </div>
+      <div className="">
+        <Footer />
       </div>
     </div>
   );

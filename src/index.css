@@ -10,6 +10,7 @@
   font-variation-settings: "wdth" 100, "YTLC" 500;
   --theme: linear-gradient(to right, #9d50bb, #6e48aa);
 }
+
 body {
   background-image: linear-gradient(
     to top,

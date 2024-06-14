@@ -9,7 +9,7 @@ import hat from "../assets/images/hat.png";
 import skill from "../assets/images/skill.png";
 import weight from "../assets/images/weight.png";
 import heart from "../assets/images/heart.png";
-import library from "../assets/images/library.jpg";
+import founder from "../assets/images/founder.jpg";
 import plus from "../assets/images/plus.png";
 import diamond from "../assets/images/diamond2.png";
 import Donation from "../components/Donation";
@@ -215,15 +215,15 @@ const Landing = () => {
       </div>
 
       <hr className="divider" />
-
       <div className="landing-founder-section">
         <div className="landing-founder-header">
-          <h1>More Than a Non Profit,</h1>
+          <h1>More Than Just a Non Profit,</h1>
           <h1>Championing our Youth.</h1>
         </div>
         <div className="landing-featured-story">
           <div className="landing-featured-content">
-            <h2>Our Founder</h2>
+            <h2>Our Founder - Name Here</h2>
+            <p> Lorem ipsum dolor sit amet</p>
             <p className="story-content">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et
               justo vel odio rhoncus porta. Duis consequat libero at velit
@@ -232,22 +232,22 @@ const Landing = () => {
               convallis, risus vel tincidunt finibus, dui lectus dapibus mauris,
               sed bibendum enim lectus non dolor.Aliquam sit amet convallis
               ipsum. Integer convallis, risus vel tincidunt finibus, dui lectus
-              dapibus mauris, sed bibendum enim lectus non dolor.
+              dapibus mauris, sed bibendum enim lectus non dolor. Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit. Sed et justo vel odio
+              rhoncus porta. Duis consequat libero at velit faucibus, sed semper
+              ligula suscipit. Nunc aliquam est vel efficitur porta. Aliquam sit
+              amet convallis ipsum. Integer convallis, risus vel tincidunt
+              finibus
             </p>
-            <button className="more-button">More About My Story!</button>
+            <button className="more-button">Explore my Blog!</button>
           </div>
           <div className="landing-featured-story-img">
-            <img src={student} alt="student"></img>
-            <div className="span-info">
-              <span>
-                "I was able to reach my goals and dreams" -John Smith, San Diego
-              </span>
-            </div>
+            <img src={founder} alt="student"></img>
           </div>
         </div>
       </div>
-
       <div>
+        <hr className="divider" />
         <Donation />
       </div>
       <div className="">

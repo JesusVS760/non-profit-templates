@@ -14,7 +14,6 @@
   background-position: center;
   background-image: url("../assets/images/landing2.jpg");
   margin: 0px 15px;
-
   border-radius: 20px;
   background-repeat: no-repeat;
 }
@@ -79,16 +78,14 @@ h1 .diamond-background img {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
 }
-.diamond-background {
-}
+
 .diamond-background img {
   max-width: 100%;
   height: auto;
   border-radius: 20px; /* This ensures the image doesn't overflow the rounded corners */
   display: block;
 }
-.landing-featured-story {
-}
+
 .landing-featured-story-img img {
   max-width: 550px;
   max-height: 550px;
@@ -333,4 +330,18 @@ h1 .diamond-background img {
   width: 100%;
   max-width: 300px; /* Adjust the width as needed */
   margin: 0 auto 20px;
+}
+.landing-founder-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.landing-founder-header h1 {
+  font: inherit;
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.landing-featured-content h2 {
+  font-size: 1.7rem;
 }
